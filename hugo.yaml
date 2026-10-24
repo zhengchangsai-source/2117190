@@ -2,3 +2,33 @@ baseURL: https://zhengchangsai-source.github.io/
 locale: zh-cn
 title: 2117190
 theme: PaperMod
+hasCJKLanguage: true
+params:
+  DateFormat: "2006-01-02"
+  profileMode:
+    enabled: true
+    title: 2117190
+    subtitle: "专注“解决问题”的实操型科技【小佬】，只分享亲身实测、稳定可行的方案。"
+    imageUrl: "/images/avatar.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: 文章
+        url: /posts/
+      - name: 关于
+        url: /about/
+  socialIcons:
+    - name: github
+      url: "https://github.com/zhengchangsai-source"
+    - name: email
+      url: "mailto:zhengchangsai@gmail.com"
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 20
