@@ -1,0 +1,25 @@
+disabled = false
+locale = "zh-cn"
+label = "中文"
+weight = 1
+title = "2117190"
+
+[params]
+  displayName = "CN"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "专注“解决问题”的实操型科技小佬，只分享亲身实测、稳定可行的方案。"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "2117190"
+  image = "img/avatar.jpg"
+  headline = "专注“解决问题”的实操型科技，只分享亲身实测、稳定可行的方案。"
+  bio = "分享 AI 最新资讯与亲身实测的方案，抹平信息差。"
+  links = [
+    { github = "https://github.com/zhengchangsai-source" },
+    { email = "mailto:zhengchangsai@gmail.com" },
+  ]
